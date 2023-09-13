@@ -1,0 +1,19 @@
+# Infraestructura como Código en Google Cloud Platform (GCP)
+
+Este proyecto demuestra cómo crear una infraestructura como código en Google Cloud Platform (GCP) utilizando Terraform para desplegar una API en Google App Engine y configurar un entorno para la comunicación con un cliente.
+
+## Requisitos Previos
+
+1. Una cuenta de Google Cloud Platform (GCP) configurada.
+2. Terraform instalado en tu entorno de desarrollo.
+
+## Uso
+
+1. Descarga o clona este repositorio en tu entorno de desarrollo.
+2. Abre el archivo `main.tf` en un editor de texto.
+3. Personaliza las variables según tus necesidades. Puedes encontrar las variables en la parte superior del archivo.
+4. Ejecuta los siguientes comandos en el directorio del proyecto:
+
+   ```shell
+   terraform init
+   terraform apply
